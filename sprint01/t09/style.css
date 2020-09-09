@@ -1,0 +1,22 @@
+fieldset , form {
+    border: 2px solid gray;
+}
+
+form {
+    max-width: 800px;
+    padding: 20px;
+}
+
+fieldset {
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+
+div {
+    padding: 30px 10px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

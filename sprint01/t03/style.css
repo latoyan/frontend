@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.input_hover {
+    color: green;
+    width: 100%;
+    padding:0 10px;
+}
+
+.input_hover:hover {
+    color: red;
+}
+
+.button_hover {
+    color: green;
+    width: 55px;
+    height: 2em;
+    text-transform: uppercase;
+    
+}
+.button_hover:hover {
+    color: red;
+}
+
+.content {
+    display: flex;
+    margin-top: 22.5px;
+}
+
+.border_div {
+    margin: 20px 5px 5px 5px;
+    
+}

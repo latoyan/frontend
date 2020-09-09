@@ -1,0 +1,59 @@
+.back_block_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1080px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #dad6cf;
+    padding: 18px;
+}
+
+.table_names {
+    background: black;
+    color:white;
+}
+
+.soul_stone {
+    background: #be9962;
+}
+
+.time_stone {
+    background: #547b37;
+}
+
+.space_stone {
+    background: #365487;
+}
+
+.mind_stone {
+    background: #fffd89;
+}
+
+.reality_stone {
+    background: #9b453d;
+}
+
+.power_stone {
+    background: #7e79ab;
+}
+
+.infinity_wiki {
+    padding: 15px;
+    text-align: center;
+}

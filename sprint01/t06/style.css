@@ -1,0 +1,13 @@
+h1 {
+    background: red;
+    width: 800px;
+    text-align: center;
+    height: 57px;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+span {
+    color: white;
+}

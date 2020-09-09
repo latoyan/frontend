@@ -1,0 +1,110 @@
+img {
+    height: 182px;
+    position: absolute;
+    transform: scale(0.87);
+    top: -30px;
+}
+
+.capitain_america {
+    background: linear-gradient(#4568DC , #B06AB3);
+}
+
+.iron_man {
+    background: linear-gradient(#e52d27 , #b31217);
+}
+
+.black_widow {
+    background: linear-gradient(#000 , #61045F);
+}
+
+.spider_man {
+    background: linear-gradient(#e52d27 , #000);
+}
+
+.spider_man img {
+    top: -11.56px;
+}
+
+.text_position {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    width: 270px;
+    height: 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.superhero_name {
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 9px;
+    color: rgba(255, 255,255, 0.5);
+    position: absolute;
+    right: 0;
+    top: 17px;
+    font-size: 
+}
+
+.content {
+    margin: 20px 30px 30px 30px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.for_dis_flex {
+    width: 300px;
+    display: block;
+    margin: 30px 20px;
+}
+
+.capitain_america {
+    width: 270px;
+    height: 140px;
+    position: relative;
+    border-radius: 5px;
+    margin: auto; 
+}
+
+.iron_man {
+    width: 270px;
+    height: 140px;
+    position: relative;
+    border-radius: 5px;
+    margin: auto; 
+}
+
+.black_widow {
+    width: 270px;
+    height: 140px;
+    position: relative;
+    border-radius: 5px;
+    margin: auto; 
+}
+
+.spider_man {
+    width: 270px;
+    height: 140px;
+    position: relative;
+    border-radius: 5px;
+    margin: auto; 
+}
+
+@media screen and (max-width: 1435px) {
+    .content {
+        width: 60%;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 1149px) {
+    .content {
+        height: 850px;
+        width: 31%;
+    }
+}
