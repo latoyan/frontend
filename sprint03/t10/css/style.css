@@ -1,0 +1,30 @@
+.slider_back {
+    width: 900px;
+    height: 550px;
+    background: gray;
+    display: flex;
+    margin: auto;
+}
+
+.left_arrow, .right_arrow {
+    width: 10%;
+    background: rgba(255, 255, 255, 0.10);
+    height: 100%;
+    font-size: 80px;
+    color:white;
+    padding-top:22%;
+    text-align: center;
+}
+
+.slider {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.slider img {
+    width: 720px;
+    height:100%;
+
+}

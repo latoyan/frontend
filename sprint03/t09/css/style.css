@@ -1,0 +1,88 @@
+body {
+    background: #303030;
+    height: 100%;
+}
+
+.two_column {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.nat {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+
+#nat {
+    background: #c2c2c2;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.game_pool {
+    width: 80%;
+}
+
+table {
+    width: 800px;
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 220px;
+    background: #c2c2c2;
+    border: 10px solid #303030;
+    text-align: center;
+    font-size: 90px;
+}
+
+#playerF,
+#playerS {
+    padding: 10px 15px;
+    margin: 10px;
+    width: 150px;
+    margin-left: 20%;
+}
+
+.standColor {
+    background: #d4d4d4;
+}
+
+#playerF {
+    margin-top: 30px;
+}
+
+#playerS+span {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.count {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.col {
+    background: #cf9139;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 377px;
+    background: #3e3e3e;
+    color: white;
+}
+
+.battan {
+    margin-top: 300px;
+}

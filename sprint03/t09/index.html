@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <h1>Tic tac toe</h1>
+    <div class="two_column">
+        <div class="game_pool">
+            <table>
+                <tr class="first col">
+                    <td class="firstF" id="firstF" data-type="empty" onclick="ticTacToe('firstF', '1')"></td>
+                    <td class="secondF" id="secondF" data-type="empty" onclick="ticTacToe('secondF', '2')"></td>
+                    <td class="thirdF" id="thirdF" data-type="empty" onclick="ticTacToe('thirdF', '3')"></td>
+                </tr>
+                <tr class="second col">
+                    <td class="firstS" id="firstS" data-type="empty" onclick="ticTacToe('firstS', '4')"></td>
+                    <td class="secondS" id="secondS" data-type="empty" onclick="ticTacToe('secondS', '5')"></td>
+                    <td class="thirdS" id="thirdS" data-type="empty" onclick="ticTacToe('thirdS', '6')"></td>
+                </tr>
+                <tr class="third col">
+                    <td class="firstT" id="firstT" data-type="empty" onclick="ticTacToe('firstT', '7')"></td>
+                    <td class="secondT" id="secondT" data-type="empty" onclick="ticTacToe('secondT', '8')"></td>
+                    <td class="thirdT" id="thirdT" data-type="empty" onclick="ticTacToe('thirdT', '9')"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="nat" id="nat">
+            <span id="playerF" data-type="call" class="col">Player 1</span>
+            <span id="playerS" data-type="call" class="standColor">Player 2</span>
+            <span id="countCol2">Number of turns</span>
+            <span id="countCol" class="count">0</span>
+            <span id="winnerMsg" id="count"></span>
+            <button id="battan" onclick="restart()">PLAY AGAIN</button>
+        </div>
+    </div>
+</body>
+
+</html>
